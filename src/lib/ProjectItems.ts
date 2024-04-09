@@ -11,7 +11,7 @@ const ProjectItems: Projects[] = [
     title: "PPTQ-AM",
     desc: "Project Pertama saya, yang di kerjakan bersama teman saya di kampus",
     link: "https://pptqam.ponpes.id",
-    image: "./src/assets/project1.png",
+    image: "./project1.png",
     tech: [
       {
         title: "html",
@@ -38,8 +38,8 @@ const ProjectItems: Projects[] = [
   {
     title: "First Portfolio",
     desc: "Portfolio pertama saya dengan belajar reactjs dan threejs, dan ini hasilnya.",
-    link: "https://aldiipratama.vercel.app",
-    image: "./src/assets/project2.png",
+    link: "",
+    image: "./project2.png",
     tech: [
       {
         title: "html",
@@ -75,7 +75,7 @@ const ProjectItems: Projects[] = [
     title: "Tiktok Clone Web",
     desc: "Project pembelajaran otodidak saya, dengan mengikuti course dari javascript mastery",
     link: "https://tiktok-cloning.netlify.app/",
-    image: "./src/assets/project3.png",
+    image: "./project3.png",
     tech: [
       {
         title: "html",
