@@ -13,15 +13,12 @@ const Footer = () => {
               <Button variant="link" className="p-0">
                 <a href="/" className="text-xl md:text-2xl">aldipratama</a>
               </Button>
-              <Button variant="link" className="p-0">
-                <a href="https://instagram.com/alx.dyy" className="text-gray text-sm md:text-base">alx.dyy</a>
-              </Button>
             </div>
             <p className="mt-5 text-base md:text-lg">Web Developer and Photographer</p>
           </div>
           <div className="flex justify-end w-1/2">
             <div className="flex flex-col">
-              <h2 className="text-xl md:text-2xl font-bold">Media</h2>
+              <h2 className="text-xl font-bold md:text-2xl">Media</h2>
               <div className="flex gap-4">
                 <Button variant="ghost" className="dark:!bg-background p-0">
                   <a href="https://github.com/aldiipratama" target="_blank">
@@ -42,12 +39,12 @@ const Footer = () => {
             </div>
           </div>
         </div>
-        <p className="mt-10 mb-5 text-center dark:text-gray text-sm md:text-base">&copy; Copyright {date.getFullYear()}. Made with <TypeIt options={{
+        <p className="mt-10 mb-5 text-sm text-center dark:text-gray md:text-base">&copy; Copyright {date.getFullYear()}. Made with <TypeIt options={{
           loop: true,
         }} getBeforeInit={(instance) => {
           instance.type("❤").pause(1000).delete().type("Reactjs").pause(500).delete().type("Vitejs")
           return instance
-        }} /> by <Button variant="link" className="p-0 !py-0 dark:text-gray"><a href="https://instagram.com/alx.dyy">Aldipratama</a></Button></p>
+        }} /> by <Button variant="link" className="p-0 !py-0 dark:text-gray"><a href="https://instagram.com/alx.dyy" target="_blank">Aldipratama</a></Button></p>
       </div>
     </footer>
   )

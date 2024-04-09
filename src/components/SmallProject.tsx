@@ -44,7 +44,7 @@ const SmallProject = () => {
                   {
                     item.tech.map((t, i) => (
                       <Button variant="link" key={i} className="text-base md:text-lg">
-                        <a href={t.link}>{t.title}</a>
+                        <a href={t.link} target="_blank">{t.title}</a>
                       </Button>
                     ))
                   }

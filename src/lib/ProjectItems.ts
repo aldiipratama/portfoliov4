@@ -37,37 +37,13 @@ const ProjectItems: Projects[] = [
   },
   {
     title: "First Portfolio",
-    desc: "Portfolio pertama saya dengan belajar reactjs dan threejs, dan ini hasilnya.",
-    link: "",
+    desc: "Portfolio pertama saya dengan github.. haha im so happy",
+    link: "https://github.com/aldiipratama",
     image: "project2.png",
     tech: [
       {
-        title: "html",
-        link: "https://html.com",
-      },
-      {
-        title: "css",
-        link: "https://en.wikipedia.org/wiki/CSS",
-      },
-      {
-        title: "javascript",
-        link: "https://javascript.com",
-      },
-      {
-        title: "reactjs",
-        link: "https://react.dev",
-      },
-      {
-        title: "nextjs",
-        link: "https://nextjs.org/",
-      },
-      {
-        title: "tailwindcss",
-        link: "https://tailwindcss.com",
-      },
-      {
-        title: "threejs",
-        link: "https://threejs.org",
+        title: "github",
+        link: "https://github.com",
       },
     ],
   },
@@ -148,6 +124,106 @@ const ProjectItems: Projects[] = [
       {
         title: "daisyui",
         link: "https://daisyui.com",
+      },
+    ],
+  },
+  {
+    title: "Second Portfolio",
+    desc: "Portfolio kedua saya, dengan belajar reactjs dan chakra-ui",
+    image: "project5.png",
+    link: "https://aldipratama-portfoliov2.vercel.app",
+    tech: [
+      {
+        title: "html",
+        link: "https://html.com",
+      },
+      {
+        title: "css",
+        link: "",
+      },
+      {
+        title: "javascript",
+        link: "",
+      },
+      {
+        title: "reactjs",
+        link: "https://react.dev",
+      },
+      {
+        title: "chakra-ui",
+        link: "https://chakra-ui.com",
+      },
+    ],
+  },
+  {
+    title: "Third Portfolio",
+    desc: "portfolio ketiga saya, hanya memperbaiki dari portfolio v2",
+    image: "project6.png",
+    link: "https://aldipratama-portfoliov3.vercel.app",
+    tech: [
+      {
+        title: "html",
+        link: "https://html.com",
+      },
+      {
+        title: "css",
+        link: "",
+      },
+      {
+        title: "javascript",
+        link: "",
+      },
+      {
+        title: "reactjs",
+        link: "https://react.dev",
+      },
+      {
+        title: "chakra-ui",
+        link: "https://chakra-ui.com",
+      },
+      {
+        title: "tailwindcss",
+        link: "https://tailwindcss.com",
+      },
+      {
+        title: "nextjs",
+        link: "https://nextjs.org",
+      },
+    ],
+  },
+  {
+    title: "Fourth portfolio",
+    desc: "portfolio keempat saya untuk mengikuti lomba membuat portfolio dari hmtif universitas pasundan",
+    image: "project7.png",
+    link: "https://aldipratama.vercel.app",
+    tech: [
+      {
+        title: "html",
+        link: "https://html.com",
+      },
+      {
+        title: "css",
+        link: "",
+      },
+      {
+        title: "javascript",
+        link: "",
+      },
+      {
+        title: "tailwindcss",
+        link: "https://tailwindcss.com",
+      },
+      {
+        title: "reactjs",
+        link: "https://react.dev",
+      },
+      {
+        title: "vitejs",
+        link: "https://vitejs.dev",
+      },
+      {
+        title: "shadcn-ui",
+        link: "https://ui.shadcn.com",
       },
     ],
   },

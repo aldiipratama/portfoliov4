@@ -31,7 +31,7 @@ const CompleteApp = () => {
       <div className="flex flex-col">
         <div className="flex items-center justify-between w-full">
           <div className="flex items-center w-2/3" data-aos="fade-right" data-aos-delay="500">
-            <h2 className="text-2xl"><span className="dark:text-primary text-secondary text-xl md:text-2xl">#</span>complete-app</h2>
+            <h2 className="text-2xl"><span className="text-xl dark:text-primary text-secondary md:text-2xl">#</span>complete-app</h2>
           </div>
         </div>
         <div className={`flex flex-wrap justify-center gap-10 mt-10 ${(ProjectItems.length < 3 || ProjectItems.length > 3) ? "lg:justify-around" : "lg:justify-stretch"}`}>
@@ -45,7 +45,7 @@ const CompleteApp = () => {
                   <div className="flex gap-2 p-2 overflow-x-auto border-t-2 border-b-2 scrollbar scrollbar-thumb-background dark:scrollbar-thumb-slate-600 scrollbar-thumb-rounded-full scrollbar-h-1">
                     {
                       item.tech.map((tech, i) => (
-                        <Button variant="link" key={i} className="text-base md:text-lg"><a href={tech.link}>{tech.title}</a></Button>
+                        <Button variant="link" key={i} className="text-base md:text-lg"><a href={tech.link} target="_blank">{tech.title}</a></Button>
                       ))
                     }
                   </div>
@@ -53,7 +53,7 @@ const CompleteApp = () => {
                   <CardDescription className="px-4">
                     <HoverCard>
                       <HoverCardTrigger asChild>
-                        <span className="truncate line-clamp-3 text-wrap text-sm md:text-base">{item.desc}</span>
+                        <span className="text-sm truncate line-clamp-3 text-wrap md:text-base">{item.desc}</span>
                       </HoverCardTrigger>
                       <HoverCardContent className="w-80">
                         <span>{item.desc}</span>

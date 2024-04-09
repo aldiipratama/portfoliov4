@@ -50,7 +50,7 @@ const Projects = () => {
                   <div className="flex gap-2 p-2 overflow-x-auto border-t-2 border-b-2 scrollbar scrollbar-thumb-background dark:scrollbar-thumb-slate-600 scrollbar-thumb-rounded-full scrollbar-h-1">
                     {
                       item.tech.map((tech, i) => (
-                        <Button variant="link" className="text-sm md:text-base" key={i}><a href={tech.link} >{tech.title}</a></Button>
+                        <Button variant="link" className="text-sm md:text-base" key={i}><a href={tech.link} target="_blank">{tech.title}</a></Button>
                       ))
                     }
                   </div>
