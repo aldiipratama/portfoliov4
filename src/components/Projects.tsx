@@ -32,7 +32,7 @@ const Projects = () => {
       <div className="flex flex-col">
         <div className="flex items-center justify-between w-full">
           <div className="flex items-center w-2/3" data-aos="fade-right" data-aos-delay="500" data-aos-offset="200">
-            <h2><span className="dark:text-primary text-secondary text-xl md:text-2xl">#</span>projects</h2>
+            <h2><span className="text-xl dark:text-primary text-secondary md:text-2xl">#</span>projects</h2>
             <hr className="w-full text-secondary ms-4 dark:text-primary" />
           </div>
           <Button variant="link" data-aos="fade-left" data-aos-delay="500" data-aos-offset="200">
@@ -44,7 +44,7 @@ const Projects = () => {
             ProjectItems.slice(0, 3).map((item, i) => (
               <Card key={i} className="border border-black rounded-none w-[350px] dark:text-gray dark:bg-background dark:border-white" data-aos="zoom-in" data-aos-delay="500">
                 <CardHeader className="p-0">
-                  <img src={item.image} alt={item.title} width={350} height={200} />
+                  <img src={item.image} alt={item.title} className="w-[350px] h-[200px] object-fill" />
                 </CardHeader>
                 <CardContent className="p-0">
                   <div className="flex gap-2 p-2 overflow-x-auto border-t-2 border-b-2 scrollbar scrollbar-thumb-background dark:scrollbar-thumb-slate-600 scrollbar-thumb-rounded-full scrollbar-h-1">
