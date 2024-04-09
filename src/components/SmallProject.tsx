@@ -33,14 +33,14 @@ const SmallProject = () => {
       <div className="flex flex-col">
         <div className="flex items-center justify-between w-full">
           <div className="flex items-center w-2/3" data-aos="fade-right" data-aos-delay="500">
-            <h2 className="text-2xl"><span className="dark:text-primary text-secondary text-xl md:text-2xl">#</span>small-project</h2>
+            <h2 className="text-2xl"><span className="text-xl dark:text-primary text-secondary md:text-2xl">#</span>small-project</h2>
           </div>
         </div>
         <div className={`flex flex-wrap justify-center gap-10 mt-10 ${(SmallProjectItems.length < 3 || SmallProjectItems.length > 3) ? "lg:justify-around" : "lg:justify-stretch"}`}>
           {
             SmallProjectItems.map((item, i) => (
               <Card key={i} className="border border-black rounded-none w-[350px] dark:text-gray dark:bg-background dark:border-white" data-aos="zoom-in" data-aos-delay="500">
-                <CardHeader className="p-2 border-b border-black dark:border-gray flex flex-row items-center space-y-0 overflow-auto scrollbar scrollbar-thumb-background dark:scrollbar-thumb-slate-600 scrollbar-thumb-rounded-full scrollbar-h-1">
+                <CardHeader className="flex flex-row items-center p-2 space-y-0 overflow-auto border-b border-black dark:border-gray scrollbar scrollbar-thumb-background dark:scrollbar-thumb-slate-600 scrollbar-thumb-rounded-full scrollbar-h-1">
                   {
                     item.tech.map((t, i) => (
                       <Button variant="link" key={i} className="text-base md:text-lg">
@@ -50,11 +50,11 @@ const SmallProject = () => {
                   }
                 </CardHeader>
                 <CardContent className="p-0">
-                  <CardTitle className="p-4 font-bold dark:text-white text-xl md:text-2xl">{item.title}</CardTitle>
+                  <CardTitle className="p-4 text-xl font-bold dark:text-white md:text-2xl">{item.title}</CardTitle>
                   <CardDescription className="px-4">
                     <HoverCard>
                       <HoverCardTrigger asChild>
-                        <span className="truncate line-clamp-3 text-wrap text-sm md:text-base">{item.description}</span>
+                        <span className="text-sm truncate line-clamp-3 text-wrap md:text-base">{item.description}</span>
                       </HoverCardTrigger>
                       <HoverCardContent className="w-80">
                         <span>{item.description}</span>
@@ -70,7 +70,7 @@ const SmallProject = () => {
                       </Button>
                     ) : (
                       <Button variant="outline" className="rounded-none dark:hover:bg-slate-600/10">
-                        <a href={item.link} target="_blank">Preview &lt;~&gt;</a>
+                        <a href={item.link} target="_blank">Github ~~&gt;</a>
                       </Button>
                     )
                   }

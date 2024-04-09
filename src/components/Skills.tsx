@@ -10,7 +10,7 @@ const Skills = () => {
       <div className="flex flex-col">
         <div className="flex items-center justify-between w-full">
           <div className="flex items-center w-2/3" data-aos="fade-right" data-aos-delay="500" data-aos-offset="200">
-            <h2><span className="dark:text-primary text-secondary text-xl md:text-2xl">#</span>skills</h2>
+            <h2><span className="text-xl dark:text-primary text-secondary md:text-2xl">#</span>skills</h2>
             <hr className="w-full text-secondary ms-4 dark:text-primary" />
           </div>
         </div>
@@ -27,14 +27,14 @@ const Skills = () => {
           <div className="flex flex-col gap-4 mt-10 sm:flex-wrap max-md:justify-center md:flex-row-reverse xl:mt-0" data-aos="fade-left" data-aos-delay="500">
             <div className="flex flex-col gap-4">
               <Card className="border-black rounded-none dark:bg-background dark:border-gray w-60">
-                <CardHeader className="p-2 border-b border-black dark:border-gray text-lg md:text-xl">
+                <CardHeader className="p-2 text-lg border-b border-black dark:border-gray md:text-xl">
                   <CardTitle>{skills[0].title}</CardTitle>
                 </CardHeader>
                 <CardContent className="p-2 ">
                   <CardDescription className="flex flex-wrap gap-2">
                     {
                       skills[0].skill.map(s => (
-                        <Button variant="link" key={s.title} className="h-auto p-0 text-black dark:text-gray text-sm md:text-base"><a href={s.link} target="_blank">{s.title}</a></Button>
+                        <Button variant="link" key={s.title} className="h-auto p-0 text-sm text-black dark:text-gray md:text-base"><a href={s.link} target="_blank">{s.title}</a></Button>
                       ))
                     }
                   </CardDescription>
