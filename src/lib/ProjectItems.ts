@@ -1,3 +1,21 @@
+import {
+  chakraui,
+  css,
+  daisyui,
+  dart,
+  flutter,
+  github,
+  html,
+  js,
+  next,
+  php,
+  react,
+  shadcnui,
+  tailwind,
+  ts,
+  vite,
+} from "@/lib/constans";
+
 interface Projects {
   title: string;
   desc: string;
@@ -14,24 +32,24 @@ const ProjectItems: Projects[] = [
     image: "project1.png",
     tech: [
       {
-        title: "html",
-        link: "https://html.com",
+        title: html.title,
+        link: html.link,
       },
       {
-        title: "css",
-        link: "https://en.wikipedia.org/wiki/CSS",
+        title: css.title,
+        link: css.link,
       },
       {
-        title: "javascript",
-        link: "https://javascript.com",
+        title: js.title,
+        link: js.link,
       },
       {
-        title: "tailwindcss",
-        link: "https://tailwindcss.com",
+        title: tailwind.title,
+        link: tailwind.link,
       },
       {
-        title: "php",
-        link: "https://www.php.net/",
+        title: php.title,
+        link: php.link,
       },
     ],
   },
@@ -42,8 +60,8 @@ const ProjectItems: Projects[] = [
     image: "project2.png",
     tech: [
       {
-        title: "github",
-        link: "https://github.com",
+        title: github.title,
+        link: github.link,
       },
     ],
   },
@@ -54,32 +72,32 @@ const ProjectItems: Projects[] = [
     image: "project3.png",
     tech: [
       {
-        title: "html",
-        link: "https://html.com",
+        title: html.title,
+        link: html.link,
       },
       {
-        title: "css",
-        link: "https://en.wikipedia.org/wiki/CSS",
+        title: css.title,
+        link: css.link,
       },
       {
-        title: "javascript",
-        link: "https://javascript.com",
+        title: js.title,
+        link: js.link,
       },
       {
-        title: "reactjs",
-        link: "https://react.dev",
+        title: react.title,
+        link: react.link,
       },
       {
-        title: "nextjs",
-        link: "https://nextjs.org/",
+        title: next.title,
+        link: next.link,
       },
       {
-        title: "typescript",
-        link: "https://www.typescriptlang.org/",
+        title: ts.title,
+        link: ts.link,
       },
       {
-        title: "tailwindcss",
-        link: "https://tailwindcss.com",
+        title: tailwind.title,
+        link: tailwind.link,
       },
     ],
   },
@@ -90,12 +108,12 @@ const ProjectItems: Projects[] = [
     image: "https://placeholder.com/350x200?text=PhotoNotFound",
     tech: [
       {
-        title: "dart",
-        link: "https://dart.dev/",
+        title: dart.title,
+        link: dart.link,
       },
       {
-        title: "flutter",
-        link: "https://flutter.dev/",
+        title: flutter.title,
+        link: flutter.link,
       },
     ],
   },
@@ -106,24 +124,24 @@ const ProjectItems: Projects[] = [
     image: "project4.png",
     tech: [
       {
-        title: "html",
-        link: "https://html.com",
+        title: html.title,
+        link: html.link,
       },
       {
-        title: "css",
-        link: "https://en.wikipedia.org/wiki/CSS",
+        title: css.title,
+        link: css.link,
       },
       {
-        title: "javascript",
-        link: "https://javascript.com",
+        title: js.title,
+        link: js.link,
       },
       {
-        title: "tailwindcss",
-        link: "https://tailwindcss.com",
+        title: tailwind.title,
+        link: tailwind.link,
       },
       {
-        title: "daisyui",
-        link: "https://daisyui.com",
+        title: daisyui.title,
+        link: daisyui.link,
       },
     ],
   },
@@ -134,28 +152,28 @@ const ProjectItems: Projects[] = [
     link: "https://aldipratama-portfoliov2.vercel.app",
     tech: [
       {
-        title: "html",
-        link: "https://html.com",
+        title: html.title,
+        link: html.link,
       },
       {
-        title: "css",
-        link: "https://en.wikipedia.org/wiki/CSS",
+        title: css.title,
+        link: css.link,
       },
       {
-        title: "javascript",
-        link: "https://javascript.com",
+        title: js.title,
+        link: js.link,
       },
       {
-        title: "vitejs",
-        link: "https://vitejs.dev",
+        title: vite.title,
+        link: vite.link,
       },
       {
-        title: "reactjs",
-        link: "https://react.dev",
+        title: react.title,
+        link: react.link,
       },
       {
-        title: "chakra-ui",
-        link: "https://chakra-ui.com",
+        title: chakraui.title,
+        link: chakraui.link,
       },
     ],
   },
@@ -166,36 +184,36 @@ const ProjectItems: Projects[] = [
     link: "https://aldipratama-portfoliov3.vercel.app",
     tech: [
       {
-        title: "html",
-        link: "https://html.com",
+        title: html.title,
+        link: html.link,
       },
       {
-        title: "css",
-        link: "https://en.wikipedia.org/wiki/CSS",
+        title: css.title,
+        link: css.link,
       },
       {
-        title: "javascript",
-        link: "https://javascript.com",
+        title: js.title,
+        link: js.link,
       },
       {
-        title: "vitejs",
-        link: "https://vitejs.dev",
+        title: vite.title,
+        link: vite.link,
       },
       {
-        title: "reactjs",
-        link: "https://react.dev",
+        title: react.title,
+        link: react.link,
       },
       {
-        title: "chakra-ui",
-        link: "https://chakra-ui.com",
+        title: chakraui.title,
+        link: chakraui.link,
       },
       {
-        title: "tailwindcss",
-        link: "https://tailwindcss.com",
+        title: tailwind.title,
+        link: tailwind.link,
       },
       {
-        title: "nextjs",
-        link: "https://nextjs.org",
+        title: next.title,
+        link: next.link,
       },
     ],
   },
@@ -206,32 +224,32 @@ const ProjectItems: Projects[] = [
     link: "https://aldipratama.vercel.app",
     tech: [
       {
-        title: "html",
-        link: "https://html.com",
+        title: html.title,
+        link: html.link,
       },
       {
-        title: "css",
-        link: "https://en.wikipedia.org/wiki/CSS",
+        title: css.title,
+        link: css.link,
       },
       {
-        title: "javascript",
-        link: "https://javascript.com",
+        title: js.title,
+        link: js.link,
       },
       {
-        title: "tailwindcss",
-        link: "https://tailwindcss.com",
+        title: tailwind.title,
+        link: tailwind.link,
       },
       {
-        title: "reactjs",
-        link: "https://react.dev",
+        title: react.title,
+        link: react.link,
       },
       {
-        title: "vitejs",
-        link: "https://vitejs.dev",
+        title: vite.title,
+        link: vite.link,
       },
       {
-        title: "shadcn-ui",
-        link: "https://ui.shadcn.com",
+        title: shadcnui.title,
+        link: shadcnui.link,
       },
     ],
   },

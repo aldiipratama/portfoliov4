@@ -1,3 +1,13 @@
+import {
+  css,
+  daisyui,
+  html,
+  lodash,
+  preline,
+  siraui,
+  tailwind,
+} from "@/lib/constans";
+
 interface SPI {
   tech: { title: string; link: string }[];
   title: string;
@@ -9,20 +19,20 @@ const SmallProjectItems: SPI[] = [
   {
     tech: [
       {
-        title: "html",
-        link: "https://html.com",
+        title: html.title,
+        link: html.link,
       },
       {
-        title: "css",
-        link: "https://en.wikipedia.org/wiki/CSS",
+        title: css.title,
+        link: css.link,
       },
       {
-        title: "tailwindcss",
-        link: "https://tailwindcss.com",
+        title: tailwind.title,
+        link: tailwind.link,
       },
       {
-        title: "daisyui",
-        link: "https:/daisyui.com",
+        title: daisyui.title,
+        link: daisyui.link,
       },
     ],
     title: "faq accordion card",
@@ -33,20 +43,20 @@ const SmallProjectItems: SPI[] = [
   {
     tech: [
       {
-        title: "html",
-        link: "https://html.com",
+        title: html.title,
+        link: html.link,
       },
       {
-        title: "css",
-        link: "https://en.wikipedia.org/wiki/CSS",
+        title: css.title,
+        link: css.link,
       },
       {
-        title: "tailwindcss",
-        link: "https://tailwindcss.com",
+        title: tailwind.title,
+        link: tailwind.link,
       },
       {
-        title: "daisyui",
-        link: "https:/daisyui.com",
+        title: daisyui.title,
+        link: daisyui.link,
       },
     ],
     title: "tip calculator app",
@@ -61,16 +71,16 @@ const SmallProjectItems: SPI[] = [
     link: "https://github.com/aldiipratama/Base-Apparel-coming-soon-page",
     tech: [
       {
-        title: "html",
-        link: "https://html.com",
+        title: html.title,
+        link: html.link,
       },
       {
-        title: "css",
-        link: "https://en.wikipedia.org/wiki/CSS",
+        title: css.title,
+        link: css.link,
       },
       {
-        title: "tailwindcss",
-        link: "https://tailwindcss.com",
+        title: tailwind.title,
+        link: tailwind.link,
       },
     ],
   },
@@ -81,16 +91,16 @@ const SmallProjectItems: SPI[] = [
     link: "https://github.com/aldiipratama/Ping-single-column-coming-soon-page",
     tech: [
       {
-        title: "html",
-        link: "https://html.com",
+        title: html.title,
+        link: html.link,
       },
       {
-        title: "css",
-        link: "https://en.wikipedia.org/wiki/CSS",
+        title: css.title,
+        link: css.link,
       },
       {
-        title: "tailwindcss",
-        link: "https://tailwindcss.com",
+        title: tailwind.title,
+        link: tailwind.link,
       },
     ],
   },
@@ -101,16 +111,16 @@ const SmallProjectItems: SPI[] = [
     link: "https://github.com/aldiipratama/Huddle-landing-page-with-a-single-introductory-section",
     tech: [
       {
-        title: "html",
-        link: "https://html.com",
+        title: html.title,
+        link: html.link,
       },
       {
-        title: "css",
-        link: "https://en.wikipedia.org/wiki/CSS",
+        title: css.title,
+        link: css.link,
       },
       {
-        title: "tailwindcss",
-        link: "https://tailwindcss.com",
+        title: tailwind.title,
+        link: tailwind.link,
       },
     ],
   },
@@ -121,16 +131,16 @@ const SmallProjectItems: SPI[] = [
     link: "https://github.com/aldiipratama/Intro-component-with-sign-up-form",
     tech: [
       {
-        title: "html",
-        link: "https://html.com",
+        title: html.title,
+        link: html.link,
       },
       {
-        title: "css",
-        link: "https://en.wikipedia.org/wiki/CSS",
+        title: css.title,
+        link: css.link,
       },
       {
-        title: "tailwindcss",
-        link: "https://tailwindcss.com",
+        title: tailwind.title,
+        link: tailwind.link,
       },
     ],
   },
@@ -141,16 +151,16 @@ const SmallProjectItems: SPI[] = [
     link: "https://github.com/aldiipratama/Single-price-grid-component",
     tech: [
       {
-        title: "html",
-        link: "https://html.com",
+        title: html.title,
+        link: html.link,
       },
       {
-        title: "css",
-        link: "https://en.wikipedia.org/wiki/CSS",
+        title: css.title,
+        link: css.link,
       },
       {
-        title: "tailwindcss",
-        link: "https://tailwindcss.com",
+        title: tailwind.title,
+        link: tailwind.link,
       },
     ],
   },
@@ -161,20 +171,20 @@ const SmallProjectItems: SPI[] = [
     link: "https://github.com/aldiipratama/four-card-feature-section",
     tech: [
       {
-        title: "html",
-        link: "https://html.com",
+        title: html.title,
+        link: html.link,
       },
       {
-        title: "css",
-        link: "https://en.wikipedia.org/wiki/CSS",
+        title: css.title,
+        link: css.link,
       },
       {
-        title: "tailwindcss",
-        link: "https://tailwindcss.com",
+        title: tailwind.title,
+        link: tailwind.link,
       },
       {
-        title: "daisyui",
-        link: "https://daisyui.com",
+        title: daisyui.title,
+        link: daisyui.link,
       },
     ],
   },
@@ -185,20 +195,20 @@ const SmallProjectItems: SPI[] = [
     link: "https://github.com/aldiipratama/article-preview-component",
     tech: [
       {
-        title: "html",
-        link: "https://html.com",
+        title: html.title,
+        link: html.link,
       },
       {
-        title: "css",
-        link: "https://en.wikipedia.org/wiki/CSS",
+        title: css.title,
+        link: css.link,
       },
       {
-        title: "tailwindcss",
-        link: "https://tailwindcss.com",
+        title: tailwind.title,
+        link: tailwind.link,
       },
       {
-        title: "daisyui",
-        link: "https://daisyui.com",
+        title: daisyui.title,
+        link: daisyui.link,
       },
     ],
   },
@@ -209,16 +219,16 @@ const SmallProjectItems: SPI[] = [
     link: "https://github.com/aldiipratama/social-proof-section",
     tech: [
       {
-        title: "html",
-        link: "https://html.com",
+        title: html.title,
+        link: html.link,
       },
       {
-        title: "css",
-        link: "https://en.wikipedia.org/wiki/CSS",
+        title: css.title,
+        link: css.link,
       },
       {
-        title: "tailwindcss",
-        link: "https://tailwindcss.com",
+        title: tailwind.title,
+        link: tailwind.link,
       },
     ],
   },
@@ -229,16 +239,16 @@ const SmallProjectItems: SPI[] = [
     link: "https://github.com/aldiipratama/profile-card-component",
     tech: [
       {
-        title: "html",
-        link: "https://html.com",
+        title: html.title,
+        link: html.link,
       },
       {
-        title: "css",
-        link: "https://en.wikipedia.org/wiki/CSS",
+        title: css.title,
+        link: css.link,
       },
       {
-        title: "tailwindcss",
-        link: "https://tailwindcss.com",
+        title: tailwind.title,
+        link: tailwind.link,
       },
     ],
   },
@@ -249,16 +259,16 @@ const SmallProjectItems: SPI[] = [
     link: "https://github.com/aldiipratama/3-column-preview-card-component",
     tech: [
       {
-        title: "html",
-        link: "https://html.com",
+        title: html.title,
+        link: html.link,
       },
       {
-        title: "css",
-        link: "https://en.wikipedia.org/wiki/CSS",
+        title: css.title,
+        link: css.link,
       },
       {
-        title: "tailwindcss",
-        link: "https://tailwindcss.com",
+        title: tailwind.title,
+        link: tailwind.link,
       },
     ],
   },
@@ -269,20 +279,20 @@ const SmallProjectItems: SPI[] = [
     link: "https://github.com/aldiipratama/stats-preview-card-component",
     tech: [
       {
-        title: "html",
-        link: "https://html.com",
+        title: html.title,
+        link: html.link,
       },
       {
-        title: "css",
-        link: "https://en.wikipedia.org/wiki/CSS",
+        title: css.title,
+        link: css.link,
       },
       {
-        title: "tailwindcss",
-        link: "https://tailwindcss.com",
+        title: tailwind.title,
+        link: tailwind.link,
       },
       {
-        title: "daisyui",
-        link: "https://daisyui.com",
+        title: daisyui.title,
+        link: daisyui.link,
       },
     ],
   },
@@ -293,20 +303,20 @@ const SmallProjectItems: SPI[] = [
     link: "https://github.com/aldiipratama/order-summary-component",
     tech: [
       {
-        title: "html",
-        link: "https://html.com",
+        title: html.title,
+        link: html.link,
       },
       {
-        title: "css",
-        link: "https://en.wikipedia.org/wiki/CSS",
+        title: css.title,
+        link: css.link,
       },
       {
-        title: "tailwindcss",
-        link: "https://tailwindcss.com",
+        title: tailwind.title,
+        link: tailwind.link,
       },
       {
-        title: "daisyui",
-        link: "https://daisyui.com",
+        title: daisyui.title,
+        link: daisyui.link,
       },
     ],
   },
@@ -317,20 +327,20 @@ const SmallProjectItems: SPI[] = [
     link: "https://github.com/aldiipratama/interactive-rating-component",
     tech: [
       {
-        title: "html",
-        link: "https://html.com",
+        title: html.title,
+        link: html.link,
       },
       {
-        title: "css",
-        link: "https://en.wikipedia.org/wiki/CSS",
+        title: css.title,
+        link: css.link,
       },
       {
-        title: "tailwindcss",
-        link: "https://tailwindcss.com",
+        title: tailwind.title,
+        link: tailwind.link,
       },
       {
-        title: "preline",
-        link: "https://preline.co",
+        title: preline.title,
+        link: preline.link,
       },
     ],
   },
@@ -341,24 +351,24 @@ const SmallProjectItems: SPI[] = [
     link: "https://github.com/aldiipratama/NFT-preview-card-component",
     tech: [
       {
-        title: "html",
-        link: "https://html.com",
+        title: html.title,
+        link: html.link,
       },
       {
-        title: "css",
-        link: "https://en.wikipedia.org/wiki/CSS",
+        title: css.title,
+        link: css.link,
       },
       {
-        title: "tailwindcss",
-        link: "https://tailwindcss.com",
+        title: tailwind.title,
+        link: tailwind.link,
       },
       {
-        title: "sira ui",
-        link: "https://sira.riazer.com/",
+        title: siraui.title,
+        link: siraui.link,
       },
       {
-        title: "lodash",
-        link: "https://lodash.com/",
+        title: lodash.title,
+        link: lodash.link,
       },
     ],
   },
@@ -369,16 +379,16 @@ const SmallProjectItems: SPI[] = [
     link: "https://github.com/aldiipratama/product-preview-card-component",
     tech: [
       {
-        title: "html",
-        link: "https://html.com",
+        title: html.title,
+        link: html.link,
       },
       {
-        title: "css",
-        link: "https://en.wikipedia.org/wiki/CSS",
+        title: css.title,
+        link: css.link,
       },
       {
-        title: "tailwindcss",
-        link: "https://tailwindcss.com",
+        title: tailwind.title,
+        link: tailwind.link,
       },
     ],
   },
@@ -389,20 +399,20 @@ const SmallProjectItems: SPI[] = [
     link: "https://github.com/aldiipratama/newsletter-sign-up-form",
     tech: [
       {
-        title: "html",
-        link: "https://html.com",
+        title: html.title,
+        link: html.link,
       },
       {
-        title: "css",
-        link: "https://en.wikipedia.org/wiki/CSS",
+        title: css.title,
+        link: css.link,
       },
       {
-        title: "tailwindcss",
-        link: "https://tailwindcss.com",
+        title: tailwind.title,
+        link: tailwind.link,
       },
       {
-        title: "daisyui",
-        link: "https://daisyui.com",
+        title: daisyui.title,
+        link: daisyui.link,
       },
     ],
   },
@@ -413,16 +423,16 @@ const SmallProjectItems: SPI[] = [
     link: "https://github.com/aldiipratama/qr-code-component",
     tech: [
       {
-        title: "html",
-        link: "https://html.com",
+        title: html.title,
+        link: html.link,
       },
       {
-        title: "css",
-        link: "https://en.wikipedia.org/wiki/CSS",
+        title: css.title,
+        link: css.link,
       },
       {
-        title: "tailwindcss",
-        link: "https://tailwindcss.com",
+        title: tailwind.title,
+        link: tailwind.link,
       },
     ],
   },
@@ -433,16 +443,16 @@ const SmallProjectItems: SPI[] = [
     link: "https://github.com/aldiipratama/result-summary-component",
     tech: [
       {
-        title: "html",
-        link: "https://html.com",
+        title: html.title,
+        link: html.link,
       },
       {
-        title: "css",
-        link: "https://en.wikipedia.org/wiki/CSS",
+        title: css.title,
+        link: css.link,
       },
       {
-        title: "tailwindcss",
-        link: "https://tailwindcss.com",
+        title: tailwind.title,
+        link: tailwind.link,
       },
     ],
   },
