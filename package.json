@@ -1,8 +1,9 @@
 {
   "name": "portfoliov4",
   "private": true,
-  "version": "0.0.0",
+  "version": "1.0.0",
   "type": "module",
+  "description": "portfoliov4 saya sekaligus untuk mengikuti lomba dari hmtif universitas pasundan",
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
