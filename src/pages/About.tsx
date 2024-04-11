@@ -10,7 +10,7 @@ import {
   BreadcrumbSeparator,
 } from "@/components/ui/breadcrumb"
 import { Button } from "@/components/ui/button";
-import { useEffect, useState } from "react";
+import { useEffect, useLayoutEffect, useState } from "react";
 import { Link } from "react-router-dom";
 import { ReactSVG } from "react-svg";
 import Dots from '@/assets/Dots.svg'
@@ -26,12 +26,14 @@ import loadingTitle from "@/components/loadingTitle";
 const About = () => {
   const [loading, setLoading] = useState(true);
   useEffect(() => {
-    loadingTitle("About")
-
     setTimeout(() => {
       setLoading(false);
     }, 1500);
   });
+
+  useLayoutEffect(() => {
+    loadingTitle("About")
+  })
   return (
     <>
       <SplashScreen loading={loading} />

@@ -13,19 +13,21 @@ import {
   BreadcrumbSeparator,
 } from "@/components/ui/breadcrumb"
 import { NavProjectItems } from "@/lib/NavItems"
-import { useEffect, useState } from "react"
+import { useEffect, useLayoutEffect, useState } from "react"
 import { Link } from "react-router-dom"
 
 
 const Project = () => {
   const [loading, setLoading] = useState(true);
   useEffect(() => {
-    loadingTitle("Project")
-
     setTimeout(() => {
       setLoading(false);
     }, 1500);
   });
+
+  useLayoutEffect(() => {
+    loadingTitle("Project")
+  })
   return (
     <>
       <SplashScreen loading={loading} />
