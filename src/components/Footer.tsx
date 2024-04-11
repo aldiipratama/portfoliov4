@@ -14,7 +14,7 @@ const Footer = () => {
                 <a href="/" className="text-xl md:text-2xl">aldipratama</a>
               </Button>
             </div>
-            <p className="mt-5 text-base md:text-lg">Web Developer and Photographer</p>
+            <p className="mt-5 text-base md:text-lg">Frontend Developer and Photographer</p>
           </div>
           <div className="flex justify-end w-1/2">
             <div className="flex flex-col">
