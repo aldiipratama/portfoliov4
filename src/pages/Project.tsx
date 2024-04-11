@@ -3,6 +3,7 @@ import Footer from "@/components/Footer"
 import Navbar from "@/components/Navbar"
 import SmallProject from "@/components/SmallProject"
 import SplashScreen from "@/components/SplashScreen"
+import loadingTitle from "@/components/loadingTitle"
 import {
   Breadcrumb,
   BreadcrumbItem,
@@ -19,6 +20,8 @@ import { Link } from "react-router-dom"
 const Project = () => {
   const [loading, setLoading] = useState(true);
   useEffect(() => {
+    loadingTitle("Project")
+
     setTimeout(() => {
       setLoading(false);
     }, 1500);
@@ -39,7 +42,7 @@ const Project = () => {
                         <Link to="/">Home</Link>
                       </BreadcrumbLink>
                     </BreadcrumbItem>
-                    <BreadcrumbSeparator className="text-secondary dark:text-primary text-2xl md:text-4xl">
+                    <BreadcrumbSeparator className="text-2xl text-secondary dark:text-primary md:text-4xl">
                       <span>/</span>
                     </BreadcrumbSeparator>
                     <BreadcrumbItem>
@@ -47,7 +50,7 @@ const Project = () => {
                     </BreadcrumbItem>
                   </BreadcrumbList>
                 </Breadcrumb>
-                <p className="dark:text-gray mt-5 text-sm md:text-base">List of my Project</p>
+                <p className="mt-5 text-sm dark:text-gray md:text-base">List of my Project</p>
               </div>
               <CompleteApp />
               <SmallProject />
