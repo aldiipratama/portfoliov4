@@ -139,11 +139,15 @@ const ProjectItems: Projects[] = [
       },
       {
         title: "css",
-        link: "",
+        link: "https://en.wikipedia.org/wiki/CSS",
       },
       {
         title: "javascript",
-        link: "",
+        link: "https://javascript.com",
+      },
+      {
+        title: "vitejs",
+        link: "https://vitejs.dev",
       },
       {
         title: "reactjs",
@@ -167,11 +171,15 @@ const ProjectItems: Projects[] = [
       },
       {
         title: "css",
-        link: "",
+        link: "https://en.wikipedia.org/wiki/CSS",
       },
       {
         title: "javascript",
-        link: "",
+        link: "https://javascript.com",
+      },
+      {
+        title: "vitejs",
+        link: "https://vitejs.dev",
       },
       {
         title: "reactjs",
@@ -203,11 +211,11 @@ const ProjectItems: Projects[] = [
       },
       {
         title: "css",
-        link: "",
+        link: "https://en.wikipedia.org/wiki/CSS",
       },
       {
         title: "javascript",
-        link: "",
+        link: "https://javascript.com",
       },
       {
         title: "tailwindcss",

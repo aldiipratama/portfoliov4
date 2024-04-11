@@ -25,20 +25,12 @@ const skills: skils[] = [
         link: "https://git-scm.com/",
       },
       {
-        title: "react-icons",
-        link: "https://react-icons.github.io/react-icons/",
+        title: "eclipse",
+        link: "https://eclipse.org",
       },
       {
-        title: "lucide-icons",
-        link: "https://lucide.dev/icons/",
-      },
-      {
-        title: "shadcn-ui",
-        link: "https://ui.shadcn.com/",
-      },
-      {
-        title: "tailwindcss",
-        link: "https://tailwindcss.com",
+        title: "cisco",
+        link: "https://cisco.com",
       },
     ],
   },
@@ -56,6 +48,18 @@ const skills: skils[] = [
       {
         title: "nextjs",
         link: "https://nextjs.org/",
+      },
+      {
+        title: "astrojs",
+        link: "https://astro.build",
+      },
+      {
+        title: "expressjs",
+        link: "https://expressjs.com",
+      },
+      {
+        title: "react native",
+        link: "https://reactnative.dev",
       },
     ],
   },
@@ -76,6 +80,51 @@ const skills: skils[] = [
     title: "others",
     skill: [
       {
+        title: "sass",
+        link: "https://sass-lang.com/",
+      },
+      {
+        title: "shadcn-ui",
+        link: "https://ui.shadcn.com/",
+      },
+      {
+        title: "tailwindcss",
+        link: "https://tailwindcss.com",
+      },
+      {
+        title: "bootstrap",
+        link: "https://getbootstrap.com",
+      },
+      {
+        title: "nodejs",
+        link: "https://nodejs.org",
+      },
+      {
+        title: "jquery",
+        link: "https://jquery.com",
+      },
+      {
+        title: "daisyui",
+        link: "https://daisyui.com",
+      },
+      {
+        title: "material ui",
+        link: "https://mui.com",
+      },
+      {
+        title: "chakra-ui",
+        link: "https://chakra-ui.com",
+      },
+      {
+        title: "turtle",
+        link: "https://docs.python.org/3/library/turtle.html",
+      },
+    ],
+  },
+  {
+    title: "languages",
+    skill: [
+      {
         title: "html",
         link: "https://html.com",
       },
@@ -83,15 +132,6 @@ const skills: skils[] = [
         title: "css",
         link: "https://en.wikipedia.org/wiki/CSS",
       },
-      {
-        title: "sass",
-        link: "https://sass-lang.com/",
-      },
-    ],
-  },
-  {
-    title: "languages",
-    skill: [
       {
         title: "javascript",
         link: "https://javascript.com",
@@ -103,6 +143,18 @@ const skills: skils[] = [
       {
         title: "php",
         link: "https://www.php.net/",
+      },
+      {
+        title: "python",
+        link: "https://python.org",
+      },
+      {
+        title: "java",
+        link: "https://java.com",
+      },
+      {
+        title: "dart",
+        link: "https://dart.dev",
       },
     ],
   },
