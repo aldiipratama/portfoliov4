@@ -7,9 +7,6 @@ import {VitePWA} from "vite-plugin-pwa"
 export default defineConfig({
   plugins: [react(), VitePWA({
     registerType: "prompt",
-    devOptions: {
-      enabled: true
-    },
     includeAssets: ["favicon.ico", "apple-touch-icon.png"],
     manifest: {
       name: "Aldipratama | portfolio",

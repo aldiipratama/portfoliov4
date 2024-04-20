@@ -34,6 +34,7 @@ const About = () => {
   useLayoutEffect(() => {
     loadingTitle("About")
   })
+
   return (
     <>
       <SplashScreen loading={loading} />

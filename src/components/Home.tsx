@@ -11,13 +11,13 @@ const Home = () => {
     <section className='relative flex flex-col mt-20 ' id='#'>
       <div className="flex flex-col items-stretch lg:flex-row">
         <div className="w-full lg:w-1/2" data-aos="fade-right" data-aos-delay="500">
-          <p className="md:max-w-md lg:text-xl">Aldipratama is a <TypeIt options={{
+          <h1 >Aldipratama is a <TypeIt options={{
             loop: true,
           }} getBeforeInit={(instance) => {
             instance.type("Frontend Developer").pause(500).delete().type("Photographer")
             return instance
-          }} className="text-secondary dark:text-primary" /></p>
-          <p className='mt-10 md:max-w-md text-gray text-sm md:text-base'>I build responsive websites where technology meets creativity</p>
+          }} className="text-secondary dark:text-primary" /></h1>
+          <p className='mt-10 text-sm md:max-w-md text-gray md:text-base'>I build responsive websites where technology meets creativity</p>
           <Button variant="outline" className='hidden mt-5 rounded-none lg:block'>
             <Link to="contact" spy smooth activeClass="active" offset={-60}>Contact Me !!</Link>
           </Button>
@@ -30,7 +30,7 @@ const Home = () => {
             <ReactSVG src={Dots} className='absolute bottom-5 right-24 text-secondary dark:text-primary' width={50} />
           </div>
           <div className='p-2 -mt-2 border border-black dark:border-white w-68 border-1 z-[1] flex gap-2 items-center'>
-            <span className='bg-secondary dark:bg-primary w-2 h-2 inline-block'></span>
+            <span className='inline-block w-2 h-2 bg-secondary dark:bg-primary'></span>
             <p className='max-w-[250px] text-xs text-gray md:text-base'>Currently Working on <span className="font-bold dark:text-white">Portofolio</span></p>
           </div>
         </div>
