@@ -62,7 +62,7 @@ const Navbar = ({ NavItems }: { NavItems: Navs[] }) => {
                 NavItems.map((item, i) => {
                   return (
                     <li key={i} className="nav-item">
-                      <Button asChild variant="link" className="justify-start w-full dark:hover:bg-slate-600/10 hover:bg-slate-100">
+                      <Button asChild variant="link" className="justify-start w-full dark:hover:bg-slate-600/10 hover:bg-slate-100" onClick={()=>setNavOpen(false)}>
                         {
                           item.link === "/" ? (
                             <Link2 to="/"><span className="dark:text-primary text-secondary">#</span>{item.title}</Link2>
