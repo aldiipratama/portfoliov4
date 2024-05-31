@@ -253,6 +253,30 @@ const ProjectItems: Projects[] = [
       },
     ],
   },
+  {
+    title: 'dyyAI',
+    desc: 'belajar membuat AI dari API GROQ AI',
+    image: 'project8.png',
+    link: 'https://ai-dyy.vercel.app',
+    tech: [
+      {
+        title: 'GROQ-AI',
+        link: 'https://grow.com'
+      },
+      {
+        title: vite.title,
+        link: vite.link
+      },
+      {
+        title: react.title,
+        link: react.link
+      },
+      {
+        title: tailwind.title,
+        link: tailwind.link
+      },
+    ]
+  }
 ];
 
 export default ProjectItems;
