@@ -257,11 +257,11 @@ const ProjectItems: Projects[] = [
     title: 'dyyAI',
     desc: 'belajar membuat AI dari API GROQ AI',
     image: 'project8.png',
-    link: 'https://ai-dyy.vercel.app',
+    link: 'https://ai-dyy.netlify.app',
     tech: [
       {
         title: 'GROQ-AI',
-        link: 'https://grow.com'
+        link: 'https://groq.com'
       },
       {
         title: vite.title,
